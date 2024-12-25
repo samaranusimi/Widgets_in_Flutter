@@ -72,8 +72,8 @@ import 'package:flutter/material.dart';
 //   }
 // }
 
-class Column_widget extends StatelessWidget {
-  const Column_widget({super.key});
+class ColumnWidget extends StatelessWidget {
+  const ColumnWidget({super.key});
 
   @override
   Widget build(BuildContext context) {

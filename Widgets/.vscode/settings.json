@@ -1,3 +1,5 @@
 {
-    "cmake.sourceDirectory": "/Users/samaranusimi/Downloads/pro/Flutter/randomnumber/linux"
+    "cmake.sourceDirectory": "/Users/samaranusimi/Downloads/pro/Flutter/randomnumber/linux",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "dart.flutterSdkPath": "~/development/flutter"
 }

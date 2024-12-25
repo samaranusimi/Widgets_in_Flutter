@@ -7,8 +7,6 @@ class IconbuttonWidget extends StatefulWidget {
   State<IconbuttonWidget> createState() => _IconbuttonWidgetState();
 }
 
-double _volume = 0;
-
 class _IconbuttonWidgetState extends State<IconbuttonWidget> {
   double _volume = 0;
   @override
@@ -74,9 +72,8 @@ class _IconbuttonWidgetState extends State<IconbuttonWidget> {
                         }
                       });
                     },
-                    child: Text("Volume up"),
-                    style:
-                        OutlinedButton.styleFrom(foregroundColor: Colors.amber),
+                    child: const Text("Volume up"),
+                    style: OutlinedButton.styleFrom(foregroundColor: Colors.amber),
                   ),
                   SizedBox(width: 20),
                   OutlinedButton(

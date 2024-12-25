@@ -8,7 +8,7 @@ class Iconwidget extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.greenAccent,
-        title: Text("Icons"),
+        title: const Text("Icons"),
       ),
       body: Container(
         padding: EdgeInsets.only(top: 20, bottom: 20, right: 10, left: 10),

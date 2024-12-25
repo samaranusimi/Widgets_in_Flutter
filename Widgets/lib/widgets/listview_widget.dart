@@ -15,6 +15,12 @@ class ListviewWidget extends StatelessWidget {
           child: ListView(
             children: [
               ListTile(
+                leading: Icon(Icons.account_circle),
+                title: Text("Account"),
+                subtitle: Text("This is an account description."),
+                trailing: Icon(Icons.delete),
+              ),
+              ListTile(
                 leading: Icon(Icons.access_alarm_outlined),
 
                 title: Text("Alarm"),

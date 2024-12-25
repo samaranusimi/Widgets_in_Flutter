@@ -2,8 +2,8 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class Next_Screen extends StatelessWidget {
-  const Next_Screen({super.key});
+class NextScreen extends StatelessWidget {
+  const NextScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class Next_Screen extends StatelessWidget {
         child: Center(
             child: Text(
           "Your RandomNumber is ${generateRandomNumber()}",
-          style: TextStyle(fontSize: 30),
+          style: const TextStyle(fontSize: 30),
         )));
   }
 }
