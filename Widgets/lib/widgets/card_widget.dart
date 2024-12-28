@@ -13,6 +13,7 @@ class CardWidget extends StatelessWidget {
       ),
       body: Center(
           child: Container(
+        color: Colors.amber,
         width: 300.0,
         height: 150.0,
         child: Card(

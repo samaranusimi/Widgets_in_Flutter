@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/widgets/cardwidget.dart';
+import 'package:widgets/widgets/alert_dialog_widget.dart';
+// import 'package:widgets/widgets/radio_button_widiget.dart';
+// import 'package:widgets/widgets/range_slider_widget.dart';
+// import 'package:widgets/widgets/cardwidget.dart';
+// import 'package:widgets/widgets/checkbox_widget.dart';
+// import 'package:widgets/widgets/switch_widget.dart';
 // import 'package:widgets/widgets/drawer.dart';
 // import 'package:widgets/widgets/tab_screens/first_screen.dart';
 // import 'package:widgets/widgets/tab_screens/second_screen.dart';
@@ -21,7 +26,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const CardWidget(),
+      home: AlertDialogWidget(),
       // initialRoute: 'home',
       // routes: {
       //   'home': (context) => const DrawerWidget(),
